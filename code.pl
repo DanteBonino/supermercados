@@ -87,6 +87,7 @@ valorProductoConDescuento(Producto, Valor):-
     sum_list(Descuentos, DescuentoTotal),
     Valor is Precio - DescuentoTotal.
 
+%Punto 4:
 clienteFiel(Cliente, Marca):-
     compro(Cliente,Producto,_),
     tipoProducto(Producto, TipoDeProducto),
